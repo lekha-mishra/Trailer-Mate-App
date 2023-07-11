@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/hardware"
+        android:title="Hardware" />
+
+    <item
+        android:id="@+id/interiar"
+        android:title="Interior Material" />
+
+    <item
+        android:id="@+id/fabrication"
+        android:title="Fabrication Materia" />
+
+    <item
+        android:id="@+id/building"
+        android:title="Building Materia" />
+
+</menu>

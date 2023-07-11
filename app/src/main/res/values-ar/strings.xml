@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">غسيل سيارة</string>
+
+    <string name="forget_txt">إذا نسيت كلمة المرور الخاصة بك ، فحاول الحصول على كلمة المرور الخاصة بك عن طريق إدخال بريدك الإلكتروني هنا.</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="Open">يفتح</string>
+    <string name="Close">يغلق</string>
+    <string name="Filters">المرشحات</string>
+    <string name="Apply">يكمل</string>
+    <string name="Clear">امسح الكل</string>
+    <string name="network_error_title">خطأ في الشبكة!</string>
+    <string name="network_error_message">يرجى التحقق من اتصال الشبكة الخاص بك وحاول مرة أخرى.</string>
+    <string name="description">ل مؤسسة ، من قبل</string>
+    <string name="login_email_hint">بريد الالكتروني</string>
+    <string name="login_password_hint">كلمه السر</string>
+    <string name="hello_world">تغيير اللغة</string>
+    <string name="home">مسكن</string>
+    <string name="myprofile">ملفي</string>
+    <string name="editprofile">تعديل الملف الشخصي</string>
+    <string name="wallet">محفظة</string>
+    <string name="mycart">عربة التسوق الخاصة بي</string>
+    <string name="mywishlist">قائمة امنياتي</string>
+    <string name="orderhistory">تاريخ الطلبات</string>
+    <string name="changelang">تغيير اللغة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="invitefriend">ادعُ صديقًا</string>
+    <string name="rateus">قيمنا</string>
+    <string name="booking">الحجز</string>
+    <string name="profile">حساب تعريفي</string>
+    <string name="booknow">احجز الآن</string>
+    <string name="viewallordrer">عرض كل الطلبات</string>
+    <string name="selectvehicle">اختر السيارة</string>
+    <string name="ourservices">خدماتنا</string>
+    <string name="signup">اشتراك</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="nobooking">لم تقم بأي حجوزات قادمة بعد</string>
+    <string name="mywallet">محفظتى</string>
+    <string name="mywbalance">رصيد المحفظة</string>
+    <string name="topupwallet">محفظة اشحن رصيدك</string>
+    <string name="enteramount">أدخل المبلغ</string>
+    <string name="recommemded">مُستَحسَن</string>
+    <string name="proceedtotop">انتقلت إلى رصيد</string>
+    <string name="uploadimage">تحميل الصور</string>
+    <string name="uploadidentity">تحميل مستندات الهوية (الأذار / هوية الناخب)</string>
+    <string name="uploaddoc">تحميل المستند</string>
+    <string name="updatedetails">تحديث التفاصيل</string>
+    <string name="profileimage">صورة الملف الشخصي</string>
+    <string name="uploadeddoc">وثائق الهوية التي تم تحميلها</string>
+    <string name="selectlanguage">اختر لغة</string>
+    <string name="chooseyouracc">اختر حسابك</string>
+</resources>

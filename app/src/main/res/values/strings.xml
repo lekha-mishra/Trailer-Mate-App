@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Trailer Mate</string>
+
+    <string name="forget_txt">If you are forget your password then try to obtain your password by enter you email here.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="Filters">Filters</string>
+    <string name="Apply">Continue</string>
+    <string name="Clear">Clear All</string>
+    <string name="network_error_title">Network Error!</string>
+    <string name="network_error_message">Please check your network connection and try again.</string>
+    <string name="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officiis aliquid est, porro unde architecto provident nam assumenda sunt ducimus
+ voluptate omnis, asperiores et repellendus ullam quidem. Aperiam, ex assumenda?</string>
+
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="hello_world">Change Language</string>
+    <string name="home">Home</string>
+    <string name="myprofile">My Profile</string>
+    <string name="editprofile">Update Profile</string>
+
+    <string name="wallet">Wallet</string>
+    <string name="mycart">My Cart</string>
+    <string name="mywishlist">My Wishlist</string>
+    <string name="orderhistory">Orders History</string>
+
+    <string name="changelang">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="invitefriend">Invite Friend</string>
+    <string name="rateus">Rate Us</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="topsearch">Top Search</string>
+    <string name="profile">Profile</string>
+    <string name="download">Download</string>
+    <string name="booknow">Book Now</string>
+    <string name="viewallordrer">View All Orders</string>
+    <string name="selectvehicle">Select Vehicle</string>
+    <string name="ourservices">Our Services</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="nobooking">You have not made any upcoming bookings yet</string>
+    <string name="mywallet">My Wallet</string>
+    <string name="mywbalance">Wallet Balance</string>
+    <string name="topupwallet">Topup Wallet</string>
+    <string name="enteramount">Enter Amount</string>
+    <string name="recommemded">Recommended</string>
+    <string name="proceedtotop">PROCEED TO TOPUP</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="uploadidentity">Upload Identity Documents (Adhar/Voter Id)</string>
+    <string name="uploaddoc">Upload Document</string>
+    <string name="updatedetails">Update Details</string>
+
+    <string name="profileimage">Profile Image</string>
+    <string name="uploadeddoc">Uploaded Identity Documents</string>
+    <string name="selectlanguage">Select a Language</string>
+    <string name="chooseyouracc">Choose Your Account</string>
+    <string name="player_error" translatable="false">Error initializing YouTube player: %s</string>
+</resources>

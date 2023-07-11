@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:visibility="gone"
+    android:id="@+id/sprintsearch"
+    android:elevation="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20mdp"
+        android:layout_marginTop="@dimen/_5mdp"
+        android:layout_marginEnd="@dimen/_20mdp"
+        android:layout_marginBottom="@dimen/_8mdp"
+        android:background="@drawable/stroke_edittext_background"
+        android:drawableStart="@drawable/search_icon"
+        android:drawablePadding="@dimen/_10mdp"
+        android:hint="Search"
+        android:textSize="17sp"
+        android:padding="@dimen/_5mdp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/toolbar_menu"
+        app:navigationIcon="@drawable/drawer_icon"
+        app:titleTextColor="@color/black">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urban Hardware"
+                android:textSize="@dimen/_16mdp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!--         <EditText-->
+            <!--             android:layout_width="match_parent"-->
+            <!--             android:layout_height="wrap_content"-->
+            <!--             android:layout_marginTop="@dimen/_10mdp"-->
+            <!--             android:background="@drawable/stroke_edittext_background"-->
+            <!--             android:hint="Search"-->
+            <!--             android:padding="@dimen/_5mdp"-->
+            <!--             android:layout_marginBottom="@dimen/_8mdp"-->
+            <!--             app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--             app:layout_constraintEnd_toEndOf="parent"-->
+            <!--             app:layout_constraintStart_toStartOf="parent"-->
+            <!--             app:layout_constraintTop_toBottomOf="@+id/title_text" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

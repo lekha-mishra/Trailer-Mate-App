@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearsearch"
+    tools:context=".Fragments.TopSearch_Fragment">
+
+    <TextView
+        android:id="@+id/txttopsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Top Search" />
+    <LinearLayout
+        android:id="@+id/search_by_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_box_white"
+        android:weightSum="2">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+
+            android:gravity="left"
+            android:drawableLeft="@drawable/search"
+            android:paddingLeft="10dp"
+            android:drawablePadding="@dimen/_10mdp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchtext"
+            android:textSize="@dimen/_12mdp"
+            android:background="@drawable/rounded_box_grey"
+            android:hint="Search for a Movie or Tv show"
+            android:paddingStart="@dimen/_10mdp"
+            android:paddingBottom="@dimen/_5mdp"
+            android:paddingTop="@dimen/_5mdp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_weight=".5"
+            android:text="Search"
+
+            android:id="@+id/searchhit"
+            android:paddingTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_corner_bluestroke"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_searchedmovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10mdp"
+        android:background="@color/white"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_upcomingmovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10mdp"
+        android:background="@color/white"
+        />
+
+
+</LinearLayout>
