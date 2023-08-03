@@ -1,6 +1,8 @@
 
 
 # Trailer Mate App Android
+[![Java](https://img.shields.io/badge/java-%2320232a.svg?style=for-the-badge&logo=java&logoColor=%23ED8B00)](https://www.oracle.com/java/)
+
 The Movie Trailer App is an Android application that allows users to search for and watch trailers for their favorite movies. This app is designed to provide an intuitive and user-friendly interface that allows users to easily find and watch movie trailers.
 
 # Features
